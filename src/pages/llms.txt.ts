@@ -24,9 +24,9 @@ Idioma principal: português do Brasil. Área de atendimento: ${seo.areaServed}.
 ## Navegação
 
 - [Site oficial](${siteUrl}/): Página institucional completa da ${identity.siteName}.
-- [Áreas de atuação](${siteUrl}/#especialidades): Especialidades relacionadas ao Direito Penal Econômico e à defesa criminal empresarial.
+- [Áreas de atuação](${siteUrl}/#especialidades): ${seo.knowsAbout.join(', ')}.
 - [Quando buscar ajuda](${siteUrl}/#quando-buscar-ajuda): Situações que podem exigir orientação jurídica imediata.
-- [Sobre o profissional](${siteUrl}/#sobre): Experiência e apresentação de ${identity.professionalName}.
+- [Sobre o escritório](${siteUrl}/#sobre): Apresentação da equipe e de ${identity.professionalName}.
 - [Como funciona o atendimento](${siteUrl}/#como-funciona): Etapas do contato inicial ao acompanhamento jurídico.
 - [Dúvidas frequentes](${siteUrl}/#faq): Respostas institucionais sobre atendimento e sigilo.
 - [Localização](${siteUrl}/#localizacao): Região de atendimento presencial e acesso ao mapa.

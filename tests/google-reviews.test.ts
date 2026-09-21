@@ -1,9 +1,18 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { siteConfig } from '../src/config/site';
+import type { ReviewsSectionConfig } from '../src/config/site';
 import { resolveReviews } from '../src/services/google-reviews';
 
-const createSection = () => structuredClone(siteConfig.reviewsSection);
+const createSection = () => {
+  const section: ReviewsSectionConfig = structuredClone(siteConfig.reviewsSection);
+  section.manualItems = [
+    { quote: 'Depoimento de teste A', name: 'Pessoa A', details: 'Teste', rating: 5, avatar: '/images/google-icon.png', avatarPosition: 'center' },
+    { quote: 'Depoimento de teste B', name: 'Pessoa B', details: 'Teste', rating: 5, avatar: '/images/google-icon.png', avatarPosition: 'center' },
+    { quote: 'Depoimento de teste C', name: 'Pessoa C', details: 'Teste', rating: 5, avatar: '/images/google-icon.png', avatarPosition: 'center' },
+  ];
+  return section;
+};
 
 test('usa o fallback manual quando a chave da API não foi configurada', async () => {
   const section = createSection();

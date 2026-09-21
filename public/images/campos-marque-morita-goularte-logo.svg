@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="165" height="28" viewBox="0 0 165 28" role="img" aria-labelledby="title">
+  <title id="title">Campos Marque Morita &amp; Goularte Advogadas</title>
+  <g fill="none" stroke="#D9CBB6" stroke-width="1.1" stroke-linecap="square">
+    <path d="M5 3h20M5 3v22m0 0h20M11.5 3v22M18.5 3v22M25 3v22"/>
+  </g>
+  <path d="M32 2v24" stroke="#D9CBB6" stroke-width=".7" opacity=".7"/>
+  <g fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing=".7">
+    <text x="39" y="10" font-size="8.2">CAMPOS MARQUE</text>
+    <text x="39" y="21" font-size="8.2">MORITA &amp; GOULARTE</text>
+  </g>
+  <text x="39" y="27" fill="#D9CBB6" font-family="Arial, Helvetica, sans-serif" font-size="4.1" letter-spacing="1.4">ADVOGADAS</text>
+</svg>

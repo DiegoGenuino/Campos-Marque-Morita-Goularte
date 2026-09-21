@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#315CFF"/>
-  <path d="M17 14h32v10H29v8h17v10H29v16H17V14Z" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Campos Marque Morita &amp; Goularte">
+  <rect width="64" height="64" rx="12" fill="#141B33"/>
+  <g fill="none" stroke="#D9CBB6" stroke-width="2.4" stroke-linecap="square">
+    <path d="M15 13h34M15 13v38m0 0h34M26 13v38M38 13v38M49 13v38"/>
+  </g>
 </svg>
